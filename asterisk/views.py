@@ -22,5 +22,5 @@ def make_call(extension, phone_number):
         print(f"Error: {e}")
     
 def softphone(request):
-    make_call('92','0368989209')
+    #make_call('92','0368989209')
     return render(request,'softphone.html')
